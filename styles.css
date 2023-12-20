@@ -1,0 +1,59 @@
+/* Add some color to the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: #3498db; /* Blue color */
+}
+
+/* Style the paragraph */
+p {
+    word-wrap: break-word;
+    text-align: center;
+    color: #555;
+}
+
+/* Style the result paragraphs */
+.lastResult {
+    color: #fff;
+    padding: 3px;
+    background-color: #27ae60; /* Green color */
+}
+
+.resetButton {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.guesses, .lowOrHi {
+    color: #555;
+}
+
+/* Style the form input */
+.form input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #3498db; /* Blue color */
+}
+
+/* Style the form button */
+.btn-primary {
+    background-color: #3498db; /* Blue color */
+    border: 1px solid #3498db; /* Blue color */
+}
+
+/* Hover effect on the button */
+.btn-primary:hover {
+    background-color: #2980b9; /* Darker blue color */
+    border: 1px solid #2980b9; /* Darker blue color */
+}
+
